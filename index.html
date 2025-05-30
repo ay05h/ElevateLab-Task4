@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Labs - Task 4</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Ayush Kumar Rai</div>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Skills">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ayush Kumar Rai</h1>
+                <p>
+                    I'm a Full Stack Web Developer and AI/ML enthusiast from Ghazipur, Uttar Pradesh. Currently pursuing
+                    a B.Tech in Artificial Intelligence and Machine Learning, I specialize in building scalable web
+                    applications using the MERN stack and have a strong foundation in Data Structures and Algorithms.
+                </p>
+                <a href="#features" class="cta-button">Explore My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content" id="about">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-section">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm currently a student at Amrita Vishwa Vidyapeetham, Coimbatore, pursuing my B.Tech in
+                        Artificial Intelligence. I enjoy working on web development and machine learning projects that
+                        solve real-world problems. I'm passionate about learning, experimenting with new technologies,
+                        and contributing to meaningful solutions.
+                    </p>
+
+                    <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'><rect fill='%23e9ecef' width='500' height='300' rx='10'/><text x='250' y='150' font-family='Arial' font-size='16' fill='%236c757d' text-anchor='middle' dominant-baseline='middle'>Responsive Image Example</text></svg>"
+                        alt="Responsive design example" class="content-image">
+
+                    <p>Portfolio Highlights:</p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                        <li>Designed full-stack web apps using MERN stack</li>
+                        <li>Implemented machine learning models for predictions</li>
+                        <li>Built responsive UIs with modern CSS techniques</li>
+                        <li>Worked on decentralized applications with blockchain</li>
+                        <li>Contributed to open-source and freelance projects</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar">
+                    <h3>Portfolio Snapshots</h3>
+                    <div class="sidebar-item">
+                        <strong>AI Crop Recommender</strong>
+                        <p>Suggests ideal crops based on environmental conditions.</p>
+                    </div>
+                    <div class="sidebar-item">
+                        <strong>Laptop Price Predictor</strong>
+                        <p>ML model to estimate market prices based on specs.</p>
+                    </div>
+                    <div class="sidebar-item">
+                        <strong>3D Brain Tumor Segmentation</strong>
+                        <p>Deep learning model for precise medical imaging analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="Skills">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <ul>
+                <li><strong>Languages:</strong> Java, Python, JavaScript</li>
+                <li><strong>Frameworks:</strong> React.js, Node.js, Express.js</li>
+                <li><strong>Databases:</strong> MongoDB, MySQL</li>
+                <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+                <li><strong>Other:</strong> UI/UX Design, RESTful APIs, Machine Learning (TensorFlow, Scikit-learn)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="features" id="portfolio">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌾</div>
+                    <h3>AI Crop Recommender</h3>
+                    <p>
+                        Developed an AI-powered tool to suggest optimal crops based on soil and climate data, aiding
+                        farmers in decision-making.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Laptop Price Predictor</h3>
+                    <p>
+                        Implemented a machine learning model to predict laptop prices based on specifications, assisting
+                        buyers in making informed choices.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✉️</div>
+                    <h3>SMS Spam Classifier</h3>
+                    <p>
+                        Built a Naive Bayes classifier to detect and filter out spam messages, enhancing communication
+                        efficiency.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>3D Brain Tumor Segmentation</h3>
+                    <p>
+                        Used deep learning and 3D U-Net architecture to segment brain tumors from MRI scans, improving
+                        diagnosis support.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Smart Intrusion Detection</h3>
+                    <p>
+                        Designed an intelligent intrusion detection system using ML algorithms to enhance network
+                        security in real-time.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧬</div>
+                    <h3>Decentralized Health Records</h3>
+                    <p>
+                        Built a decentralized system for hospitals using blockchain and IPFS, allowing patients to
+                        securely share medical reports.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="features" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                Feel free to connect with me!
+            </p>
+            <ul>
+                <li><strong>Email:</strong> dev.ayushkumar.in@gmail.com</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/ay05h">ayush-kumar-rai</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ayush-kumar-rai-ay05h">Ayush
+                        Kumar Rai</a></li>
+                <li><strong>Portfolio:</strong> <a href="__">ayushrai.vercel.app</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 This web site demo made for Elevate Labs task 4.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        }
+
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                const nav = document.getElementById('mainNav');
+                nav.classList.remove('active');
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            const nav = document.getElementById('mainNav');
+            const menuToggle = document.querySelector('.menu-toggle');
+
+            if (!nav.contains(e.target) && !menuToggle.contains(e.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
